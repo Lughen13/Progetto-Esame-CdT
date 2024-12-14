@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?> <!--da cambiare con il nostro xsl-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd"><!--da scaricare-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Rassegna Settimanale</title>
+            </titleStmt>
+        <editionStmt>
+            <edition>
+            <date>2024</date>
+            </edition>
+                <respStmt>
+                    <resp>Progetto universitario a cura di: </resp>
+                    <name xml:id="AM-DG">Angelo Mario Del Grosso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <name xml:id="MC">
+                        <forename>Matteo </forename>
+                        <surname>Cipolli</surname>
+                    </name>
+                    <name xml:id="LL">
+                        <forename>Luca </forename>
+                        <surname>Loi</surname>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt xml:id="pubProg">
+                <publisher>Università di Pisa</publisher>
+                <date when="2024-12">Dicembre 2024</date>
+                <availability status="restricted">
+                    <p>Limitata</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Rassegna settimanale di Politica, Scienze, Lettere ed Arti</title>
+                    <author>
+                        <persName ref="#LF"><forename>Leopoldo</forename> <surname>Franchetti</surname></persName>
+                    </author>
+                    <author>
+                        <persName ref="#SS"><forename>Sidney</forename> <surname>Sonnino</surname></persName>
+                    </author>
+                    <pubPlace>Firenze</pubPlace>
+                    <publisher>Casa Editrice Barbèra</publisher>
+                    <date when="1878-01-06">6 gennaio 1878</date>
+                    <date when="1882-01-29">29 gennaio 1882</date>
+                </bibl>
+                <listPerson>
+                    <head>Autori e Collaboratori</head>
+                    <person>
+                        <persName ref="#PV"><forename>Pasquale</forename> <surname>Villari</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#LM"><forename>Luigi</forename> <surname>Masi</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#AAH"><forename>Aleksandr Aleksandrovič</forename> <surname>Herzen</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#ADA"><forename>Alessandro</forename> <surname>D'Ancona</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#DC"><forename>Domenico</forename> <surname>Comparetti</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#RF"><forename>Renato</forename> <surname>Fucini</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#FM"><forename>Ferdinando</forename> <surname>Martini</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#PGM"><forename>Pompeo Gherardo</forename> <surname>Molmenti</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#AB"><forename>Adolfo</forename> <surname>Bartoli</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#RB"><forename>Ruggiero</forename> <surname>Bonghi</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#GF"><forename>Giustino</forename> <surname>Fortunato</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#GB"><forename>Giacomo</forename> <surname>Barzellotti</surname></persName>
+                    </person>
+                    <person>
+                        <persName ref="#GV"><forename>Giovanni</forename> <surname>Verga</surname></persName>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+            <textDesc>
+                <channel mode="w" />
+                <constitution type="composite" />
+                <derivation type="original" />
+                <domain type="rel"> Politica e cultura </domain>
+                <factuality type="fact" />
+                <interaction type="none" active="singular" passive="self" />
+                <preparedness type="none" />
+                <purpose type="express" degree="medium" />
+                <!-- <channel mode="w"/><constitution>Continuato</constitution><domain>Politica e cultura</domain><purpose>Rivista informativa e educativa su politica, scienze e arti</purpose><factuality>Informativo</factuality> -->
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
+
+    <!-- Facsimili per gli articoli -->
+    <facsimile>
+        <!-- Articolo 1: Politica Italiana in Oriente -->
+        <surface n="1" xml:id="p_i_o">
+            <graphic url='la_politica_italiana_in_oriente.png' width='1028.666666px' height='1502.666666px' />
+            <zone ulx="41" uly="45" lrx="1011" lry="228" xml:id="tit-pio" />
+            <zone ulx="43" uly="244" lrx="515" lry="375" xml:id="par1-pio"/>
+            <zone ulx="40" uly="379" lrx="517" lry="684" xml:id="par2-pio" />
+            <zone ulx="39" uly="692" lrx="513" lry="1078" xml:id="par3-pio"/>
+            <zone ulx="39" uly="1080" lrx="514" lry="1404" xml:id="par4-pio"/>
+            <zone ulx="39" uly="1408" lrx="513" lry="1492" xml:id="par5-pio"/>
+            <zone ulx="532" uly="244" lrx="1009" lry="344" xml:id="par6-pio"/>
+            <zone ulx="531" uly="352" lrx="1012" lry="512" xml:id="par7-pio"/>
+            <zone ulx="532" uly="516" lrx="1010" lry="656" xml:id="par8-pio"/>
+            <zone ulx="531" uly="660" lrx="1009" lry="1087" xml:id="par9-pio"/>
+        </surface>
+
+
+         <!-- Articoli 2 e 3: Guido Padelletti - Regioni nel Parlamento -->
+        <surface n="2" xml:id="gp_rnp">
+            <graphic url='guido Padelletti_Regioni nel parlamento.png' width='1045.666666px' height='1563.666666px' />
+            <zone ulx="20" uly="33" lrx="1001" lry="226" xml:id="tit-gprnp" />
+            <zone ulx="22" uly="240" lrx="500" lry="487" xml:id="par1-gp"/>
+            <zone ulx="20" uly="495" lrx="497" lry="712" xml:id="par2-gp"/>
+            <zone ulx="17" uly="722" lrx="497" lry="944" xml:id="par3-gp"/>
+            <zone ulx="18" uly="948" lrx="494" lry="1065" xml:id="par4-gp"/>
+            <zone ulx="19" uly="1071" lrx="491" lry="1230" xml:id="par5-gp"/>
+            <zone ulx="17" uly="1253" lrx="493" lry="1471" xml:id="par1-rnp"/>
+            <zone ulx="513" uly="244" lrx="997" lry="377" xml:id="par2-rnp"/>
+            <zone ulx="514" uly="388" lrx="990" lry="506" xml:id="par3-rnp"/>
+        </surface>
+
+          <!-- Articoli 2 e 3: Guido Padelletti - Regioni nel Parlamento -->
+        <surface n="3" xml:id="bib_1">
+        <graphic url='Bibliografia1.png' width='1320.666666px' height='1473.666666px' />
+        <zone ulx="659" uly="5" lrx="1291" lry="77" xml:id="tit-bib1" />
+        <zone ulx="666" uly="79" lrx="1267" lry="268" xml:id="par1-bib1" />
+        <zone ulx="666" uly="279" lrx="1275" lry="682" xml:id="par2-bib1"/>
+        <zone ulx="669" uly="693" lrx="1262" lry="866" xml:id="par3-bib1"/>
+        <zone ulx="667" uly="880" lrx="1265" lry="1328" xml:id="par4-bib1"/>
+        </surface>
+
+    <surface n="4" xml:id="bib_1_2">
+        <graphic url='Bibliografia2.png' width='1206.666666px' height='1642.666666px' />
+        <zone ulx="38" uly="16" lrx="597" lry="140" xml:id="par5-bib1" />
+        <zone ulx="38" uly="147" lrx="602" lry="358" xml:id="par1-bib2" />
+        <zone ulx="39" uly="362" lrx="598" lry="564" xml:id="par2-bib2"/>
+        <zone ulx="42" uly="576" lrx="605" lry="742" xml:id="par3-bib2"/>
+        <zone ulx="46" uly="746" lrx="601" lry="1051" xml:id="par4-bib2"/>
+        <zone ulx="47" uly="1056" lrx="601" lry="1407" xml:id="par5-bib2"/>
+        <zone ulx="48" uly="1414" lrx="599" lry="1620" xml:id="par6-bib2"/>
+        <zone ulx="613" uly="23" lrx="1172" lry="444" xml:id="par7-bib2"/>
+        <zone ulx="619" uly="457" lrx="1172" lry="847" xml:id="par8-bib2" />
+    </surface>
+
+    <surface n="5" xml:id="not">
+        <graphic url='Notizie.png' width='1069.666666px' height='1596.666666px' />
+        <zone ulx="575" uly="259" lrx="1060" lry="452" xml:id="not1" />
+        <zone ulx="579" uly="464" lrx="1056" lry="676" xml:id="not2" />
+    </surface>
+    </facsimile>
+
+    <!-- Politica Italiana in oriente -->
+    <text xml:id="text_PIO">
+        <body>
+            <div type="pagina">
+            
+                <pb n="1" facs="la_politica_italiana_in_oriente.png" />
+                
+                <ab facs="#tit-pio">
+                    
+                    <lb n="1"/>
+
+                    <title ref="#RasSet">La Rassegna Settimanale</title>
+        
+                    
+                    
+                    <lb  n="2"/>
+                    DI POLITICA,SCIENZE,LETTERE ED ARTI.
+        
+                    
+                    
+                    <lb  n="3"/>
+                    <bibl>
+                     <biblScope unit="volume">Vol.1 </biblScope>
+                    </bibl>
+                    
+                    
+                    <placeName><settlement type="city">Firenze</settlement></placeName>, 
+                    
+                    
+                    <date when="1878-02-03">3 Febbraio 1878</date> 
+                    <bibl>
+                    <biblScope unit="issue">N.5</biblScope>
+                    </bibl>
+                    </ab>
+                    
+                    
+            <ab facs="#par1-pio">    
+                
+                    <lb xml:id="t_pio" n="4"/>
+                    LA POLITICA ITALIANA IN ORIENTE
+        
+
+    
+                    <lb n="5" />
+                    Se si volesse definire con una sola frase il carattere
+          
+                            
+                        
+                        <lb n="6"/> della <rs type="temi">politica italiana</rs> in Oriente, gioverebbe contrasse-
+          
+                            
+                        
+                        <lb n="7" facs="#pio-lin7" />gnarla colla nota dell'  
+                            
+                            <rs type="temi">insuccesso volontario</rs>
+                        . Essa si svolge
+          
+                            
+                        
+                        <lb n="8" facs="#pio-lin8" />in due atti: l'
+                            
+                        
+                        <placeName><country type="nation">Egitto</country></placeName> e 
+                            
+                        
+                        <placeName><settlement type="city">Costantinopoli</settlement></placeName>, e appartiene alla
+          
+                            
+                        
+                        <lb n="9" facs="#pio-lin9" />responsabilità di due diversi <orgName>Ministeri</orgName>.
+                        
+                        </ab>
+                        
+                    
+                    <ab facs="#par2-pio">
+                    <lb n="10" facs="#pio-lin10" />Il primo atto si chiude con la 
+                    
+                    <rs type="temi">più amara delusione</rs>.
+                        
+                    
+                    <rs type="persone">Il Vi-
+          
+                            
+                        
+                        <lb  n="11" facs="#pio-lin11"  />cerè d'
+                           
+                        <placeName><country type="nation">Egitto</country></placeName></rs>, 
+                        
+                        
+                            carico di debiti, chiamava i
+                            
+                        
+                        <orgName>Governi</orgName> civili e
+          
+                            
+                        
+                        <lb n="12" facs="#pio-lin12" />amici dell'
+                            
+                        
+                        <placeName>Europa</placeName>, ad aiutarlo, a illuminarlo, e chiedeva al-
+          
+                            
+                        
+                        <lb  n="13" facs="#pio-lin13"  break="no" />l'
+                            
+                        
+                        <placeName><country type="nation">Inghilterra</country></placeName>, all'
+                            
+                        
+                        <placeName><country type="nation">Italia</country></placeName> e alla 
+                            
+                        
+                        <placeName><country type="nation">Francia</country></placeName>, distinti statisti e am-
+          
+                            
+                        
+                        <lb  n="14" facs="#pio-lin14"  break="no" />ministratori.
+                        
+                     Il <orgName>Governo italiano</orgName> vi mandò 
+                        
+                    <persName ref="#AS">lo <surname>
+                    
+                    <choice>
+                    <sic>Scialoia</sic>
+                    <corr>Scialoja</corr>
+                    </choice>
+                    </surname></persName> accom-
+          
+                        
+                    <lb  n="15" facs="#pio-lin15" />pagnato da un funzionario superiore, e con un programma
+          
+                        
+                    
+                    <lb n="16" facs="#pio-lin16" />esuberante di 
+                        
+                    
+                    <addName type="epithet">speranze ambiziose</addName>.
+                        
+                    
+                    L'  <placeName><country type="nation">Italia</country></placeName> era 
+                    
+                    <addName type="epithet">amica sin-
+          
+                                
+                            
+                            <lb  n="17" facs="#pio-lin17" />cera
+                            
+                        
+                    </addName> del Vicerè; aveva 
+                        
+                    
+                   <addName type="epithet">antiche e rispettate relazioni</addName> e con-
+          
+                        
+                    
+                    <lb n="18" facs="#pio-lin18" />suetudini coll'
+                        
+                    
+                    <placeName><country type="nation">Egitto</country></placeName>; era bagnata dallo stesso mare; vici-
+          
+                        
+                    
+                    <lb n="19" facs="#pio-lin19" />nissima al 
+                        
+                    
+                    <geogName>Canale di Suez</geogName>. L'
+                        
+                    
+                    <placeName><country type="nation">Inghilterra</country></placeName>  voleva, mercé gli
+          
+                        
+                    
+                    <lb  n="20" facs="#pio-lin20" />aiuti finanziari, prepararsi la <rs type="temi">dominazione politica dell'
+          
+                        
+                    
+                    <lb n="21" facs="#pio-lin21" break="no" />
+                    <placeName><country type="nation">Egitto</country></placeName></rs>; la 
+                        
+                    
+                    <placeName><country type="nation">Francia</country></placeName> considerava quel territorio, da 
+                        
+                    
+                    <persName ref="#NB"><forename>Napo-
+          
+                            
+                        
+                        <lb n="22" facs="#pio-lin22" />leone</forename> <surname>Bonaparte</surname>
+                        
+                    
+                    </persName> insino ad oggi, come suo; la sola 
+                        
+                    
+                    <placeName><country type="nation">Italia</country></placeName>
+                    <lb n="23" facs="#pio-lin23" />era immune di ambizioni, e poteva promettere un 
+                    
+                    <rs type="temi">aiuto
+
+                        <lb n="24" facs="#pio-lin24" />disinteressato</rs>.
+                    </ab>
+
+                    <ab facs="#par3-pio">
+                    <lb  n="25" facs="#pio-lin25" break="no" />
+                    Lo 
+                            
+                        
+                        <persName ref="#AS"><surname>
+                        <choice>
+                        <sic>Scialoia</sic>
+                        <corr>Scialoja</corr>
+                        </choice>
+                        </surname></persName> cercò ogni mezzo per imprimere questo indir-
+          
+                        <lb n="26" facs="#pio-lin26" />izzo alla <rs type="temi">politica italiana</rs>; fondò in 
+                            
+                        
+                        <placeName><country type="nation">Egitto</country></placeName> una 
+                            
+                        
+                        <orgName>Corte
+          
+                                
+                            
+                            <lb n="27" facs="#pio-lin27" />dei Conti
+                            
+                        
+                        </orgName> con riscontro preventivo sul modello italiano e
+          
+                            
+                        
+                        <lb n="28" facs="#pio-lin28"/>belga...
+
+                       
+                        
+                    Ma un bel giorno il Vicerè, più curante dei quat-
+          
+                            
+                        
+                        <lb n="29" facs="#pio-lin29" break="no" />trini inglesi e francesi che delle lezioni di <rs type="temi">economia poli-
+          
+                            
+                        
+                        <lb n="30" facs="#pio-lin30" />tica</rs> dell'
+                            
+                        
+                        <placeName><country type="nation">Italia</country></placeName>, abbatte la 
+                            
+                        
+                        <orgName>Corte dei Conti</orgName> e con un soffio
+          
+                            
+                        
+                        <lb n="31" facs="#pio-lin31" break="no" />di autorità disperse l'<rs type="temi">influenza italiana.</rs>
+                    E lo 
+                        
+                    <persName ref="#AS"><surname>
+                    <choice>
+                    <sic>Scialoia</sic>
+                    <corr>Scialoja</corr>
+                    </choice>
+                    </surname></persName> tor-
+          
+                    <lb n="32" facs="#pio-lin32" />nato in 
+                        
+                    
+                    <placeName><country type="nation">Italia</country></placeName> narrò al suo 
+                        
+                    
+                    <orgName>Governo</orgName> che i legati inglesi e
+          
+                        
+                    
+                    <lb n="33" facs="#pio-lin33" />francesi erano riusciti perché dietro i loro consigli vi erano
+          
+                        
+                    
+                    <lb n="34" facs="#pio-lin34" break="no" />i milioni dei banchieri connazionali; mentre dietro ai con-
+          
+                        
+                    
+                    <lb n="35" facs="#pio-lin35" break="no" />sigli italiani non vi erano che le buone intenzioni. In ve-
+          
+                        
+                    
+                    <lb n="36" facs="#pio-lin36" />rità a noi è noto che l'onorevole 
+                        
+                    
+                    <persName ref="#EVV">Visconti-Venosta</persName>, il quale
+          
+                        
+                    
+                    <lb n="37" facs="#pio-lin37" />reggeva allora il 
+                        
+                    
+                    <orgName>Ministero degli Esteri</orgName>, aveva cercato che
+          
+                        
+                    
+                    <lb n="38" facs="#pio-lin38" />il capitale italiano volesse impiegarsi in 
+                        
+                    
+                    <placeName><country type="nation">Egitto</country></placeName>; ma non fu
+          
+                        
+                    
+                    <lb n="39" facs="#pio-lin39" break="no" />ascoltato, e i capitalisti non ebbero in ciò tutti i torti. Que-
+          
+                        
+                    
+                    <lb n="40" facs="#pio-lin40" />sta è la breve storia del nostro <rs type="temi">primo insuccesso</rs>, il quale
+          
+                        
+                    
+                    <lb n="41" facs="#pio-lin41" />dovrebbe consigliarci per l'avvenire la cautela. Nulla è
+          
+                        
+                    
+                    <lb n="42" facs="#pio-lin42" />peggiore delle <addName type="epithet">voglie ambiziose</addName> seguite dalle <addName type="epithet">rapide e su-
+          
+                        
+                    
+                    <lb n="43" facs="#pio-lin43" />spine rassegnazioni.</addName>
+                    </ab>
+                   
+                   <ab facs="#par4-pio">
+                    <lb n="44" facs="#pio-lin44" />
+                    Il secondo atto della nostra <rs type="temi">politica orientale</rs> a 
+                            
+                        
+                        <placeName><settlement type="city">Costan-
+          
+                                
+                            
+                            <lb n="45" facs="#pio-lin45" break="no" />tinopoli</settlement>
+                            
+                        
+                        </placeName> è ancora più
+                        
+                        triste
+                    . Secretamente amici della <placeName><country type="nation">Rus-
+          
+                        
+                    
+                    <lb n="46" facs="#pio-lin46" />sia</country></placeName> per consiglio della 
+                        
+                    
+                    <placeName><country type="nation">Germania</country></placeName>; apertamente cordiali con la
+          
+                        
+                    
+                    <lb n="47" facs="#pio-lin47" break="no" />
+                    <placeName><country type="nation">Turchia</country></placeName> per sospetto dell'
+                        
+                    
+                    <placeName><country type="nation">Inghilterra</country></placeName> e dell'
+                        
+                    
+                    <placeName><country type="nation">Austria-Ungheria</country></placeName>;
+          
+                        
+                    
+                    <lb n="48" facs="#pio-lin48" break="no" />desiderosi di mostrare un <rs type="temi">grande amore per le le-
+          
+                        
+                    
+                    <lb n="49" facs="#pio-lin49" />gittime insurrezioni nazionali</rs> e nello stesso tempo un grande
+          
+                        
+                    
+                    <lb n="50" facs="#pio-lin50" break="no" /><rs type="temi">rispetto per la legalità</rs> dello <foreign xml:lang="la">status quo</foreign>; sospirando di am-
+          
+                        
+                    
+                    <lb n="51" facs="#pio-lin51" />mirazione per 
+                        
+                    
+                    l'<rs type="temi">eroismo del 
+                            
+                        
+                        <placeName><country type="nation">Montenegro</country></placeName>
+                    </rs>, pur attirandoci
+          
+                        
+                    
+                    <lb n="52" facs="#pio-lin52" />le 
+                        
+                    
+                    <addName type="epithet">fiere rampogne</addName> dei prodi figli della 
+                        
+                    
+                    <placeName><settlement type="city">Cernagora</settlement></placeName>, ai quali
+          
+                        
+                    
+                    <lb n="53" facs="#pio-lin53" break="no"/>si negava un porto nell'
+                        
+                    
+                    <geogName>Adriatico</geogName> con una durezza diplo-
+          
+                        
+                    
+                    <lb n="54" facs="#pio-lin54" break="no"/>matica che si sarebbe capita appena nella 
+                        
+                    
+                    <orgName>Cancelleria au-
+          
+                            
+                        
+                        <lb n="55" facs="#pio-lin55"/>stro-ungarica
+                        
+                    
+                    </orgName>; abbastanza impegnati con la 
+                        
+                    
+                    <placeName><country type="nation">Russia</country></placeName> e con la 
+          
+                        
+                    
+                    <lb n="56" facs="#pio-lin56" break="no"/>
+                    <placeName><country type="nation">Germania</country></placeName> per suscitare le diffidenze dell'
+                        
+                    
+                    <placeName><country type="nation">Inghilterra</country></placeName>; abba-
+          
+                        
+                    
+                    <lb n="57" facs="#pio-lin57"/>stanza liberi per fare adombrare la 
+                        
+                    
+                    <placeName><country type="nation">Russia</country></placeName> delle nostre <addName type="epithet">caute 
+          
+                        
+                    
+                    <lb n="58" facs="#pio-lin58"/>reticenze</addName>: ecco i lineamenti principali e poco corretti di
+          
+                        
+                    
+                    <lb n="59" facs="#pio-lin59"/>questo secondo atto della nostra <rs type="temi">politica orientale</rs>.
+                    </ab>
+                    
+                    <ab facs="#par5-pio">
+                    <lb n="60" facs="#pio-lin60"/>Poichè i Turchi sono stati oppressi dal numero, la nostra 
+          
+                        
+                    
+                    <lb n="61" facs="#pio-lin61"/>
+                    politica può parere giustificata dai fatti. Ma i Turchi che 
+          
+                        
+                    
+                    <lb n="62" facs="#pio-lin62" break="no"/>muoiono da prodi e dimostrando con l'
+                        
+                    
+                    <addName type="epithet">energia della loro di-
+          
+                            
+                        
+                        <lb n="63" facs="#pio-lin63" break="no"/>fesa selvaggia
+                        
+                    
+                    </addName>quanto dovessero essere intrepidi e potentis-
+                    </ab>
+
+                    
+                    <ab facs="#par6-pio">
+                    <lb n="64" facs="#pio-lin64"/>simi quegli antichi Veneziani che da soli li affrontavano e li 
+          
+                        
+                    
+                    <lb n="65" facs="#pio-lin65"/>vincevano, ebbero modo di vendicarsi sequestrando alcune 
+          
+                        
+                    
+                    <lb n="66" facs="#pio-lin66"/>navi mercantili italiane, mentre lasciavano correre il <geogName>Mar 
+          
+                        
+                    
+                    <lb n="67" facs="#pio-lin67" break="no"/>Nero</geogName> alle inglesi e alle greche, con grave 
+                    <choice>
+                    <sic>jattura</sic>
+                    <corr>iattura</corr>
+                    </choice> della ma-
+          
+                        
+                    
+                    <lb n="68" facs="#pio-lin68"/>rina ligure.
+                    </ab>
+        
+                    <ab facs="#par7-pio">
+                    <lb n="69" facs="#pio-lin69"/>In verità noi non siamo dentro alle segrete cose della
+          
+                        
+                    
+                    <lb n="70" facs="#pio-lin70" break="no"/>diplomazia; ma ci sarebbe parso che una 
+                    
+                    <addName type="epithet">politica più ri-
+          
+                        <lb n="71" facs="#pio-lin71"/>serbata e tranquilla
+
+                    </addName>sarebbe stata anche più degna.
+                        
+                    A che 
+          
+                            
+                        
+                        <lb n="72" facs="#pio-lin72"/>darsi l'apparenza di dirigere e di pigliar le iniziative della 
+          
+                            
+                        
+                        <lb n="73" facs="#pio-lin73" break="no"/>pace e delle tregue, quando non si ha il credito che oc-
+          
+                            
+                        
+                        <lb n="74" facs="#pio-lin74" break="no"/>corre a così grandi imprese, nè la forza di sostenerle? Ab-
+
+                        <lb n="75" facs="#pio-lin75" break="no"/>biamo mostrata e spiegata tutta la 
+                            
+                        
+                        <rs type="temi">potenza degli impo-
+          
+                                
+                            <lb n="76" facs="#pio-lin76"/>tenti</rs>; voglie e fremiti senza alcun effetto.
+                 
+                    </ab>
+        
+                    <ab facs="#par8-pio">
+                    <lb  n="77" facs="#pio-lin77" break="no"/>Sarebbe tempo di discutere a fondo nel <orgName>Parlamento</orgName> il te-
+          
+                        
+                    
+                    <lb n="78" facs="#pio-lin78"/>nore di questa nostra <rs type="temi">politica estera</rs>, a fine di segnarle un 
+
+          
+                        
+                    
+                    <lb n="79" facs="#pio-lin79" break="no"/>indirizzo sicuro per l'avvenire. Non domandiamo la pubbli-
+          
+                        
+                    
+                    <lb n="80" facs="#pio-lin80" break="no"/>cazione di note diplomatiche o di documenti; non si estrar-
+          
+                        
+                    
+                    <lb n="81" facs="#pio-lin81"/>rebbe da essi la verità, quale ci pare di averla delineata a 
+          
+                        
+                    
+                    <lb  n="82" facs="#pio-lin82"/>brevi tratti. Ma sarebbe tempo che si sapesse in 
+                        
+                    
+                    <placeName><country type="nation">Italia</country></placeName> e 
+          
+                        
+                    
+                    <lb n="83" facs="#pio-lin83"/>fuori l'<rs type="temi">indole della nostra politica estera</rs>.
+                    </ab>
+        
+                    <ab facs="#par9-pio">
+                    <lb n="84" facs="#pio-lin84"/>
+                    Dobbiamo noi raccoglierci a casa nostra, nelle <addName type="epithet">feconde 
+          
+                            
+                        
+                        <lb n="85" facs="#pio-lin85"/>emulazioni della scienza e del lavoro</addName>, rispettando i nostri 
+          
+                            
+                        
+                        <lb n="86" facs="#pio-lin86"/>vicini, non insidiando alcun lembo del loro territorio, nè 
+                    
+                            
+                        
+                        <lb n="87" facs="#pio-lin87"/>
+                        <placeName><settlement type="city">Nizza</settlement></placeName>, nè l'
+                            
+                        
+                        <placeName><region>Istria</region></placeName>, nè il 
+                            
+                        
+                        <placeName><region>Trentino</region></placeName>, e fortificandoci col solo 
+          
+                            
+                        
+                        <lb  n="88" facs="#pio-lin88" break="no"/>scopo di difenderci se fossimo assaliti?
+                        
+                    
+                    Ovvero dobbiamo ten-
+          
+                        
+                    
+                    <lb n="89" facs="#pio-lin89"/>tare le venture delle leghe e delle conquiste? 
+                        
+                    
+                  E cercare che 
+          
+                        <lb n="90" facs="#pio-lin90"/>ogni lembo d'
+                            
+                        
+                        <placeName><country type="nation">Italia</country></placeName> si ricongiunga al 
+                            
+                        
+                        <orgName>Regno</orgName>?
+                        
+                    
+                    E tempo di 
+          
+                        
+                    
+                    <lb n="91" facs="#pio-lin91"/>fissare l'uno o l'altro programma; ma a fronte levata, ed 
+          
+                        
+                    
+                    <lb n="92" facs="#pio-lin92" break="no"/>apertamente. 
+                        
+                    
+                    Noi siamo fautori del primo sistema; ma in-
+          
+                
+                        <lb n="93" facs="#pio-lin93"/>tendzamo anche il secondo, che però ci parrebbe cattivo.
+                        
+                    Ciò 
+          
+                        
+                    
+                    <lb n="94" facs="#pio-lin94"/>che non intendiamo è una <addName type="epithet">politica fiacca, oscillante</addName> fra la 
+          
+                        
+                    
+                    <lb n="95" facs="#pio-lin95" break="no"/>paura di suscitare le apprensioni dei nostri vicini, e il de-
+          
+                        
+                    
+                    <lb n="96" facs="#pio-lin96"/>siderio di assecondare l' <rs type="temi">aspirazione delle annessioni</rs> : una
+          
+                        
+                    
+                    <lb n="97" facs="#pio-lin97"/>politica che s'inebria della <rs type="temi">guerra di <placeName><region>Oriente</region></placeName></rs> sino al punto 
+          
+                    
+                    <lb n="98" facs="#pio-lin98"/>di sognare alleanze e annessioni gloriose, per poi ridursi a 
+          
+                        
+                    
+                    <lb  n="99" facs="#pio-lin99"/>supine dichiarazioni; che in fretta e furia e violando le 
+          
+                        
+                    
+                    <lb  n="100" facs="#pio-lin100"/>leggi e a insaputa del <orgName>Parlamento</orgName> prepara armi accattando 
+          
+                        
+                    
+                    <lb n="101" facs="#pio-lin101"/>i denari da chi non poteva darli, per poi conchiudere colle 
+          
+                        
+                    
+                    <lb  n="102" facs="#pio-lin102"/>più 
+                        
+                    
+                    <addName type="epithet">umili ritrattazioni</addName>. A noi questa politica pare, in ogni 
+          
+                        
+                    
+                    <lb n="103" facs="#pio-lin103"/>suo effetto, peggiore di quella del <rs type="temi">raccoglimento</rs> o della 
+          
+                        
+                    
+                    <lb n="104" facs="#pio-lin104"/><rs type="temi">temerità</rs>.
+
+                
+                </ab>        
+            </div>
+        </body>
+    </text>
+
+    <!-- Testo codificato di Guido Padelletti -->
+    <text xml:id="text_GP">
+        <body>
+            <div>
+                <pb n="2" facs="guido Padelletti_Regioni nel parlamento.png" />
+                <ab facs="#tit-gprnp">
+                    <lb  n="1" facs="#pag1-lin1"/>
+                    <title ref="#RasSet">La Rassegna Settimanale</title>
+                  
+                    
+                    <lb n="2" facs="#pag1-lin2"/>
+                    DI POLITICA, SCIENZE, LETTERE ED ARTI.
+                  
+                    
+                    <lb n="3" facs="#pag1-lin3"/>
+                    <bibl>
+                     <biblScope unit="volume">Vol.2° </biblScope>
+                     </bibl>
+                    
+                    <placeName><settlement type="city">Firenze</settlement></placeName>, 
+                    
+                    <date when="1878-07-07">7 luglio 1878</date>.
+                    <bibl>
+                    <biblScope unit="issue">N.1°</biblScope>
+                    </bibl>
+                </ab>
+                  
+                    <ab facs="#par1-gp">
+                    
+                    <lb n="4" facs="#pag1-lin4"/>
+                    <persName ref="#GP"><forename>GUIDO</forename> <surname>PADELLETTI</surname></persName>.
+
+                    
+                    <lb n="5" break="no"/>Ci giunge la <rs type="temi">dolorosa notizia</rs> che il dì 
+                    
+                    <date when="07-03">3 luglio </date> ha ces-
+                  
+                    
+                    <lb n="6" break="no"/>sato di vivere in 
+                    
+                    <placeName><settlement type="city">Montalcino</settlement></placeName> il prof. 
+                    
+                    <persName ref="#GP"><forename>Guido</forename> <surname>Padelletti</surname></persName>, no-
+                  
+                    
+                    <lb n="7"/>stro 
+                    
+                    <addName type="epithet">valentissimo collaboratore</addName>, nella età di 35 anni.
+                  
+                    
+                    <lb n="8"/>La sua perdita sarà vivamente sentita dai cultori delle
+                  
+                    
+                    <lb n="9"/>discipline giuridiche e sociali, nelle quali l’amico nostro era
+                  
+                    
+                    <lb n="10"/>
+                    <addName type="epithet">eccellente</addName>. Costretti per l’angustia del tempo a prendere
+                  
+                    
+                    <lb n="11"/>per sola guida le nostre reminiscenze, ci riesce impossibile
+                  
+                    
+                    <lb n="12"/>porgere alla cara <rs type="temi">memoria</rs> dell’ amico estinto quel <addName type="epithet">largo e
+                  
+                    
+                    <lb n="13" break="no"/>sincero tributo</addName> di lode che pochi hanno più di lui me-
+                  
+                    
+                    <lb n="14"/>ritato.
+                    </ab>
+                 
+                    <ab facs="#par2-gp">
+                    <lb n="15" break="no"/>Nondimeno ricorderemo come 
+                    
+                    <addName type="epithet">giovanissimo</addName> ancora ri-
+                  
+                    
+                    <lb n="16" break="no"/>chiamasse su di sè l’attenzione colla sua 
+                    <bibl> 
+                        <title>Teoria delle ele-
+                  
+                            
+                            <lb n="17"/>zioni politiche
+                        
+                        </title>, opera premiata dalla 
+                        
+                        <orgName>R. Accademia di Scienze
+                  
+                            
+                            <lb n="18"/>Morali e Politiche di 
+                            
+                            <placeName><settlement type="city">Napoli</settlement></placeName>
+                        </orgName>
+                    </bibl>e nella quale già si annun-
+                  
+                    
+                    <lb n="19" break="no"/>ziava lo <addName type="epithet">scrittore coscienzioso ed acuto</addName>. Dopo avere com-
+                  
+                    
+                    <lb n="20"/>piuti i suoi studi in 
+                    
+                    <placeName><country type="nation">Germania</country></placeName> entrò nell’<rs type="temi">insegnamento</rs>,
+                  
+                    
+                    <lb n="21"/>e nel giro di pochi anni passò dalla <orgName>Università di 
+                    
+                    <placeName><settlement type="city">Perugia</settlement></placeName></orgName>
+                    <lb n="22"/>a quella di 
+                    
+                    <placeName><settlement type="city">Pavia</settlement></placeName>, poi a quella di 
+                    
+                    <placeName><settlement type="city">Bologna</settlement></placeName> e finalmente a
+                  
+                    
+                    <lb n="23" break="no"/>quella di 
+                    
+                    <placeName><settlement type="city">Roma</settlement></placeName>, dove la <addName type="epithet">gioventù studiosa</addName> ricorderà lunga-
+                  
+                    
+                    <lb n="24"/>mente il 
+                    
+                    <addName type="epithet">valente insegnante</addName> che 1’ ammaestrava con tanta
+                  
+                    
+                    <lb n="25"/>sapienza e con tanto affetto nella storia del Diritto.
+                    </ab>
+                 
+                    <ab facs="#par3-gp">
+                    <lb n="26"/>I suoi articoli pubblicati nella 
+                    
+                    <orgName>Nuova Antologia</orgName> sulle
+                  
+                    
+                    <lb n="27"/><rs type="temi">questioni elettorali</rs> e sulla <rs type="temi">formula Cavouriana</rs> : 
+                    
+                    <quote>« libera
+                  
+                        
+                        <lb n="28" break="no"/><orgName>Chiesa</orgName> in libero <orgName>Stato</orgName>;»
+                    
+                    </quote> quelli che videro la luce nell’ <orgName type="archivio">Ar-
+                  
+                    
+                    <lb n="29" break="no"/>chivio Storico</orgName>, nell’ <orgName type="archivio">Archivio Giuridico</orgName> e in altre riviste no-
+                  
+                    
+                    <lb n="30"/>stre e straniere, e finalmente il suo 
+                    
+                    <bibl>
+                        <title>Manuale di Storia del
+                  
+                            
+                            <lb n="31"/>Diritto Romano
+                        
+                        </title> (del qual libro parlammo ampiamente nel
+                  
+                        
+                        <lb n="32" break="no"/>nostro 
+                        
+                        <ref target="#vol1-n12-p223">n° 12, vol. I, pag. 223</ref>
+                    </bibl>), sono là ad attestare l’
+                    
+                    <addName type="epithet">inge-
+                  
+                        
+                        <lb n="33"/>gno elevato ed eminentemente critico
+                    
+                    </addName> dell’ <abbr>A.</abbr>, la sua <addName type="epithet">vasta
+                  
+                    
+                    <lb n="34"/>erudizione</addName> e una <addName type="epithet">operosità mirabile</addName>, da cui non potè per
+                  
+                    
+                    <lb n="35"/>un momento distoglierlo il <rs type="temi">morbo terribile</rs> che da parecchi
+                  
+                    
+                    <lb n="36"/>anni gli andava scavando lentamente la fossa.
+                    </ab>
+                  
+                    <ab facs="#par4-gp">
+                    <lb n="37"/>Alla profondità dei concetti aggiungeva pregio la forma
+                  
+                    
+                    <lb n="38"/>semplice ed elegante. Di questo suo gusto letterario fa
+                  
+                    
+                    <lb n="39"/>prova, fra gli altri, 1’ articolo da noi pubblicato intorno ad
+                  
+                    
+                    <lb n="40"/>un viaggio in 
+                    
+                    <placeName><country type="nation">Grecia</country></placeName>.* Con facilità e felicità singolari
+                  
+                    
+                    <lb n="41"/>scrisse articoli in francese e in tedesco, ed il suo nome
+                  
+                    
+                    <lb n="42"/>godeva meritata reputazione anche al di là delle 
+                    
+                    <placeName type="mountainrange">Alpi</placeName>.
+                    </ab>
+                 
+                    <ab facs="#par5-gp">
+                    <lb n="43"/>E poiché giova non disgiungere 1’ uomo dallo scrittore,
+                  
+                    
+                    <lb n="44"/>ci piace dire come 1’ uno non discordasse dall’ altro. 
+                    
+                    <addName type="epithet">Animo
+                  
+                        
+                        <lb n="45"/>nobile, generoso, schietto
+                    
+                    </addName>, queste qualità si riflettono nei
+                  
+                    
+                    <lb n="46"/>suoi scritti. Devoto alla <rs type="temi">verità</rs>, disse sempre recisamente
+                  
+                    
+                    <lb n="47"/>la sua opinione, e parlando degli altri ignorò del pari le
+                  
+                    
+                    <lb n="48"/><addName type="epithet">accuse velenose</addName> e le <addName type="epithet">adulazioni compiacenti</addName>, dando, in ogni
+                  
+                    
+                    <lb n="49"/>occasione, prova di <addName type="epithet">civile coraggio</addName>, dote pur troppo rara
+                  
+                    
+                    <lb n="50"/>a’ dì nostri.
+                </ab>
+
+
+                <ab facs="#par1-rnp">
+                <lb xml:id="next_text1"  n="4" />
+                LE REGIONI NEL PARLAMENTO.
+
+                <lb n="51" break="no"/>Da qualche tempo a questa parte le notizie parlamen-
+
+                <lb n="52" break="no"/>tari ravvivano il ricordo doloroso degli 
+                
+                    <orgName>Stati</orgName>
+                 e delle <orgName>re-
+
+                        <lb n="53"/>gioni</orgName>
+                    
+                 in cui era divisa l’
+                <placeName><country type="nation">Italia</country></placeName>
+                <date when="1859">prima del 1859</date>.
+
+                <lb n="54"/>Un giorno le gazzette ci informano che il tal 
+                
+                    <orgName>Ministero</orgName>
+                
+                <lb n="55" break="no"/>non può trovare un segretario generale nella 
+                
+                    <orgName>Camera</orgName>
+                , per-
+
+                <lb n="56" break="no"/>chè si vuol nominare un siciliano ; l’indomani, che il 
+               
+                    <orgName>Mi-
+
+                        <lb n="57"/>nistero
+                    </orgName>
+                 sta trattando con la 
+                <orgName>deputazione sarda</orgName> e con quella
+
+                <lb n="58"/>siciliana per ottenere che consentano ad una transazione
+                </ab>
+
+                <ab facs="#par2-rnp">
+                <lb n="59" break="no"/>sul modo di operare la <rs type="temi">diminuzione dell’ imposta sul maci-
+
+                <lb n="60"/>nato.</rs> D’altra parte si annunzia che la 
+                <orgName>deputazione piemontese</orgName>
+                <lb n="61"/>preme sul 
+                
+                    <orgName>Ministero</orgName>
+                 per ottenere la nomina del tal di tale
+
+                <lb n="62"/>alla prefettura di
+                <placeName><settlement type="city">Torino</settlement></placeName> ; oppure che i deputati toscani si
+
+                <lb n="63"/>sono adunati per sollecitare collegialmente dal 
+               
+                    <orgName>Governo</orgName>
+                che
+
+                <lb n="64"/>provveda d’ urgenza ai bisogni di 
+                <placeName><settlement type="city">Firenze</settlement></placeName> e a quelli della
+
+                <lb n="65"/>
+                    <orgName>Banca Toscana</orgName>.
+                </ab>
+
+                <ab facs="#par3-rnp">
+                <lb n="66"/>Non torneremo ora a ripetere tutte le gravi ragioni di
+
+                <lb n="67"/><rs type="temi">ordine costituzionale</rs>, che rendono esiziali alle istituzioni
+
+                <lb n="68"/>rappresentative alcune di queste immistioni dei deputati
+
+                <lb n="69"/>nel 
+                <orgName>governo</orgName> diretto del paese ; * ma ci domandiamo con
+
+                <lb n="70" break="no"/>sgomento se, seguitando di questo passo, tra poco si tro-
+
+                <lb n="71"/>veranno ancora in 
+                
+                    <orgName>Parlamento</orgName>
+                 dei deputati italiani.
+
+                </ab>
+            </div>
+        </body>
+    </text>
+
+     <!-- Testo codificato della bibliografia 1 -->
+    <text xml:id="text_BIB1">
+    <body>
+        <div>
+            <pb n="5" facs="Bibliografia1.png" />
+            
+            
+            <ab facs="#tit-bib1">
+                <lb xml:id="pag17-lin1" n="1"/>
+                BIBLIOGRAFIA.
+
+                <lb xml:id="t_let" n="2"/>
+                LETTERATURA.
+            </ab>
+
+            <ab facs="#par1-bib1">
+                <lb xml:id="pag17_lin3" n="3"/>
+                <persName ref="#GR"><surname>Raisini</surname></persName>. 
+                <title>La Donna, Canti Lirici</title>.— 
+                <placeName><settlement type="city">Bologna</settlement></placeName>, 
+                <bibl>
+                    <publisher>Zanichelli</publisher>
+                </bibl>, 
+                <date when="1878">1878</date>.
+
+                <lb n="4"/>
+                <orgName>La Rassegna</orgName> s’ è più volte occupata dei poeti cosiddetti
+
+                <lb n="5"/>realisti, editi dal signor 
+                <persName ref="#NZ"><surname>Zanichelli</surname></persName>, e, spigolando il buono
+
+                <lb n="6"/>dove le parve che fosse, contrastò soltanto che in questa
+
+                <lb break="no" n="7"/><addName type="epithet">piccola baruffa</addName> di Parnaso potesse consistere una vera que-
+
+                <lb n="8"/>stione di <rs type="temi">critica artistica</rs> da dovere sul serio prender parte
+
+                <lb n="9"/>pro o contro.
+            </ab>
+
+            <ab facs="#par2-bib1">
+
+                <lb n="10"/>Ma il 
+                bravo editore sentendosi bandire offensore della
+
+                <lb n="11"/>
+                <rs type="temi">morale pubblica</rs>, come se avesse perpetrato lui gli erotismi
+
+                <lb n="12"/>delle 
+                <title>Postuma</title>, della 
+                <title>Polemica</title> e dell’ 
+                <title>Auxilium</title>, e accusare in
+
+                <lb break="no" n="13"/>forma solenne dal signor 
+                <persName ref="#LA"><forename>Luigi</forename> <surname>Alberti</surname></persName> e da altri di ver-
+
+                <lb n="14"/>sare oro, incenso ed elzeviri ai 
+                <addName type="epithet">nuovi sacerdoti della Venere
+
+                    <lb n="15"/>terrestre, 
+                </addName>s’ è presa una <rs type="temi">rivincita</rs> da uomo di spirito ^ed ha
+
+                <lb break="no" n="16"/>lanciato addosso ai suoi detrattori questo volume del Rai-
+
+                <lb n="17"/>sini, un poeta, il quale canta la Donna bimba, giovine,
+
+                <lb n="18"/>figlia, sorella e la ricanterà in un secondo volume amica,
+
+                <lb break="no" n="19"/>monaca, sposa, madre, vedova e nonna, il tutto sugli sdruc-
+
+                <lb n="20"/>cioli, gli epiteti e le cadenze romantiche degli Inni Sacri
+
+                <lb n="21"/>e dellè liriche del 
+                <persName ref="#GP"><surname>Prati</surname></persName>. Se questa non è una rivincita del
+
+                <lb n="22"/>signor 
+                <persName ref="#NZ"><surname>Zanichelli</surname></persName>, è per lo meno un <rs type="temi">atto di contrizione</rs>. Sia
+
+                <lb break="no" n="23"/>comunque, certo è che questa Donna del 
+                <persName ref="#GR"><surname>Raisini</surname></persName> è un’ 
+                <addName type="epithet">an-
+                    <lb n="24"/>tica conoscenza
+                </addName>, parente strettissima di quell’ altra che
+
+                <lb n="25"/>circa quarant’ anni fa, per intercessione del 
+                <persName ref="#GP"><surname>Prati</surname></persName>,
+
+                </ab>
+
+                <ab facs="#par3-bib1">
+
+                <lb n="26"/>
+                <quote>. . . . sull’ ali d’ angelo
+
+                    <lb n="27"/>Scese alla nostra vita
+
+                    <lb n="28"/>E avea negli occhi lagrime,
+
+                    <lb n="29"/>E rose infra le dita,
+
+                    <lb n="30"/>Misteriosa forma
+
+                    <lb n="31"/>Di luce e di profumi....
+
+                    <lb n="32"/>Èva e Maria nel vincolo
+
+                    <lb n="34"/>Del fallo e del perdono....,
+                </quote>
+                </ab>
+
+                <ab facs="#par4-bib1">
+                <lb break="no" n="35"/>con quel che segue. Rimembranze di gioventù, che ci suo-
+
+                <lb n="36"/>nano ancora musicalmente negli orecchi come la cavatina
+
+                <lb n="37"/>della Norma ed il coro dei Lombardi.... Un <rs type="temi">ideale</rs> insomma
+
+                <lb n="38"/>di quarant’ anni ! Bella età, per chi non s’è dimenticato
+
+                <lb n="39"/>che v’ ha dei tramonti, i quali valgono talvolta le aurore.
+
+                <lb n="40"/>Non diciamo che sia questo il caso preciso del 
+                <persName ref="#GR"><surname>Raisini</surname></persName>. Vi
+
+                <lb n="41"/>sono però in questo volume <addName type="epithet">pensieri nobili</addName>, <addName type="epithet">affetti gentili</addName>,
+
+                <lb n="42"/><addName type="epithet">versi belli assai</addName> e qua e là <addName type="epithet">poesia alta e vera</addName>, come nella
+
+                <lb n="43"/>Ballerina esordiente e nell’ <addName type="epithet">Amor venduto</addName>. Quando il 
+                <persName ref="#GR"><surname>Raisini</surname></persName>
+                <lb break="no" n="44"/>fonde nel tema consueto dei suoi versi qualche elevato <rs type="temi">con-
+
+                <lb n="45"/>cetto morale e civile</rs>, il suo stile si anima e acquista vigore,
+
+                <lb n="46"/>colorito, varietà, armonia, <addName type="epithet">doti pregevolissime</addName>, rare in molti,
+
+                <lb break="no" n="47"/>rare anche in lui, che bene spesso si lascia andare a tra-
+
+                <lb n="48"/>scuratezze quasi deformi :
+
+                <lb n="49"/>
+                <quote>Ma delle sue fatture la fattura
+
+                    <lb n="50"/>Sei più leggiadra, o <addName type="epithet">Dama</addName>, e <addName type="epithet">incantatrice</addName>,
+                </quote>
+                <lb n="51"/> o ripiglia intonazioni dai libretti del Piave:
+
+                </ab>
+            </div>
+        </body>
+    </text>
+
+
+    <!-- Testo codificato dell'ultima parte della bibliografia 1, e della bibliografia 2 -->
+    <text xml:id="text_BIB2">
+    <body>
+        <div>
+        <ab facs="#par5-bib1">
+                <pb n="6" facs="Bibliografia2.png" />
+                <lb n="52"/>
+                <quote>Allor sperai nell’ estasi
+
+                    <lb n="53"/>Di tua bellezza, o cara,
+
+                    <lb n="54"/>Tutta scordai l’angoscia
+
+                    <lb n="55"/>Di questa vita amara.
+                </quote>
+                <lb xml:id="pag17_lin55" n="56"/>
+                e ci fa risentire un’eco di cabalette Verdiane.
+                </ab>
+
+            <ab facs="#par1-bib2">
+                <pb n="7" facs="Bibliografia2.png" />
+                
+                
+                <lb xml:id="next_text2" n="1"/>
+                STORIA.
+
+                <lb xml:id="pag18-lin2.1" n="2"/>
+                <persName ref="#NF"><abbr>N.</abbr> <surname>Fornelli</surname></persName>. 
+                <title>Storia del medio-evo, specialmente d’<placeName><country type="nation">Italia</country></placeName></title>.—
+
+                <lb xml:id="pag18-lin3.1" n="3"/>
+                <placeName><settlement type="city">Torino</settlement></placeName>, 
+                <placeName><settlement type="city">Paravia</settlement></placeName>, 
+                <date when="1878">1878</date>.
+
+                <lb break="no" n="1"/>Questo nuovo libro (come può arguirsi anche dal nu-
+
+                <lb break="no" n="2"/>mero delle pagine, che supera di poco le 400) non è pro-
+
+                <lb n="3"/>priamente che un sommario della <rs type="temi">storia medievale</rs> ; in cui
+
+                <lb n="4"/>le cose d’
+                <placeName><country type="nation">Italia</country></placeName> tengono sì largo spazio, da potersi dire che
+
+                <lb n="5"/>quelle degli altri paesi non ci entrino che per incidenza.
+                </ab>
+                
+                <ab facs="#par2-bib2">
+                <lb n="6"/>Siamo d’avviso che l’<abbr>A.</abbr> abbia fatto così in considerazione
+
+                <lb n="7"/>dei <addName type="epithet">Programmi vigenti</addName> nei nostri 
+                <orgName>Istituti secondari</orgName>, e ch’egli
+
+                <lb break="no" n="8"/>quindi non si sia proposto che di dettare un libro scola-
+
+                <lb break="no" n="9"/>stico. Come tale, il suo lavoro non manca di pregi. Le mas-
+
+                <lb n="10"/>sime da cui muove il signor 
+                <persName ref="#NF"><surname>Fornelli</surname></persName> sono larghe e buone
+
+                <lb n="11"/>quasi sempre ; la distribuzione della materia acconcia ai
+
+                <lb n="12"/><rs type="temi">bisogni della 
+                <orgName>scuola</orgName></rs> ; la <addName type="epithet">esposizione (se anche trascurata
+
+                <lb break="no" n="13"/>qua e là) semplice, vivace, e scevra</addName> fortunatamente di <addName type="epithet">gon-
+
+                <lb n="14"/>fiezze retoriche</addName>.
+                </ab>
+
+                <ab facs="#par3-bib2">
+                <lb break="no" n="15"/>Senonchè per un libro elementare di storia, che do-
+
+                <lb n="16"/>vrebb’ essere anzitutto obbiettivo e prammatico, pare a noi
+
+                <lb n="17"/>che l’<abbr>A.</abbr> abbia concesso troppo all’apprezzamento dei fatti;
+
+                <lb n="18"/>e che negli apprezzamenti stessi non abbia mantenuto
+
+                <lb n="19"/>piena coerenza. Menda del resto difficilmente evitabile da
+
+                <lb n="20"/>chi, come il signor 
+                <persName ref="#NF"><surname>Fornelli</surname></persName>, non attinge le cognizioni alle
+
+                <lb n="21"/>fonti; ma se le procura, di seconda mano, da altre storie.
+                </ab>
+                
+                <ab facs="#par4-bib2">
+                <lb n="22"/>Delle quali, in capo alle varie sezioni, l’<abbr>A.</abbr> ne ha indicate
+
+                <lb n="23"/>molte, anzi troppe. Diciamo così, perchè tra quei libri ne
+
+                <lb n="24"/>troviamo parecchi che egli avrebbe potuto fare a meno di
+
+                <lb n="25"/>consultare, seppur non avrebbe provvisto meglio al lavoro
+
+                <lb n="26"/>sostituendo a quei libri, altri più sobri e più recenti ; della
+
+                <lb n="27"/><rs type="temi">letteratura tedesca</rs> in ispecie. Della quale il signor 
+                <persName ref="#NF"><surname>Fornelli</surname></persName>
+                <lb n="28"/>non ha voluto o potuto tener conto, certo con grave sca-
+
+                <lb n="29"/>pito del suo libro; perchè non occorre essere propriamente
+
+                <lb n="30"/>adoratori della <rs type="temi">scienza germanica</rs> per assegnarle oggidì il
+
+                <lb break="no" n="31"/>primato negli <rs type="temi">studi medievali</rs>. Il signor 
+                <persName ref="#NF"><surname>Fornelli</surname></persName> invece at-
+
+                <lb n="32"/>tinse molto a libri francesi e nostrali, e con ossequio talora
+
+                <lb break="no" n="33"/>soverchio per certi autori; per 
+                <persName ref="#GF"><forename>Giuseppe</forename> <surname>Ferrari</surname></persName> ad esem-
+
+                <lb n="34"/>pio, ch’egli cita spesso, e di cui riporta più d’un brano,
+                </ab>
+
+                <ab facs="#par5-bib2">
+                <lb n="35"/>e tra gli altri un lungo passo sulla <rs type="temi">legislazione dei tempi</rs>
+
+                <lb n="36"/>carolingi (pag. 145), dove il bagliore delle immagini non
+
+                <lb n="37"/>arriva a nascondere la vacuità o la grande inesattezza dei
+
+                <lb n="38"/>concetti. L’<abbr>A.</abbr> avrebbe fatto molto meglio se a quel punto si
+
+                <lb n="39"/>fosse alquanto fermato sulla <rs type="temi">finzione pseudo-isidoriana</rs>, e
+
+                <lb n="40"/>sulle sue relazioni col 
+                <title>Decreto di 
+                    <persName ref="#G"><forename>Graziano</forename></persName>
+                </title>. Nè è questo il
+
+                <lb break="no" n="41"/>solo luogo dove si riveli il difetto di studi propri ed ap-
+
+                <lb n="42"/>profonditi. Così, nel parlare delle <rs type="temi">rappresentazioni religiose
+
+                <lb break="no" n="43"/>dei Germani antichi</rs>, egli dice (pag. 37) che 
+                <quote>« ad alcune di-
+
+                    <lb break="no" n="44"/>vinità dell’
+                    <placeName>Olimpo</placeName> greco venne il capriccio di voler pene-
+
+                    <lb n="45"/>trare nel 
+                    <placeName>Walhalla</placeName> germanico ; » 
+                </quote>parole di cui non sappiamo
+
+                <lb break="no" n="46"/>afferrare bene il senso, e che certo non gli sarebbero sfug-
+
+                <lb n="47"/>gite, se avesse tolto a studiare, anche mediocremente, la
+
+                <lb n="48"/><rs type="temi">Mitologia tedesca</rs>. Per simil modo, con un più attento esame
+
+                <lb n="49"/>delle <rs type="epithet">condizioni politiche e civili dei nuovi regni germanici</rs>,
+                </ab>
+                
+                <ab facs="#par6-bib2">
+                <lb n="50"/>egli si sarebbe premunito contro le confusioni e gli errori
+
+                <lb break="no" n="51"/>in cui è caduto, allorché parlando dello stato delle per-
+
+                <lb break="no" n="52"/>sone (pag. 99) ebbe a mettere su d’ una riga 
+                <quote>« i liberi, ma-
+
+                    <lb n="53"/>snadieri ; 
+                    <foreign xml:lang="la">exercitales</foreign> o 
+                    <foreign xml:lang="la">arimanni</foreign> per i Longobardi ; 
+                    <foreign xml:lang="la">thanes</foreign>
+                    <lb break="no" n="54"/>inferiori presso i Sassoni ; 
+                    <foreign xml:lang="la">boni homines</foreign> in latino ; » 
+                </quote>confon-
+
+                <lb n="55"/>dendo inoltre i 
+                <foreign xml:lang="la">lendes</foreign> coi vassalli, e i 
+                <foreign xml:lang="la">gasindi</foreign> coi gastaldi,
+
+                <lb n="56"/>e i 
+                <foreign xml:lang="la">Malli</foreign> coi 
+                <foreign xml:lang="la">Placiti</foreign>.
+
+                <lb n="57"/>Di nozioni cosiffatte, meno giuste o imperfette, noi potremmo
+
+                <lb break="no" n="58"/>indicarne altre ancora, qua e là. E potremmo mo-
+                </ab>
+
+                <ab facs="#par7-bib2">
+                <lb break="no" n="59"/>strare che, nel toccare di certi fatti, o nell’ esprimere giu-
+
+                <lb n="60"/>dizi, l’<abbr>A.</abbr> non seppe attenersi sempre alla <rs type="temi">buona critica</rs>, od
+
+                <lb break="no" n="61"/>adoperarla per conto suo ; così, per accennar qualche esem-
+
+                <lb n="62"/>pio, dove parla di 
+                <persName ref="#E"><forename>Eraclio</forename></persName> e di 
+                <persName ref="#PO">papa <forename>Onorio</forename></persName>, e della dimora
+
+                <lb n="63"/>dell’ 
+                <persName ref="#FGC">imperatore <surname>Costante</surname></persName> a 
+                <placeName><settlement type="city">Roma</settlement></placeName>, e di 
+                <persName ref="#L"><forename>Liutprando</forename></persName> che leva
+
+                <lb break="no" n="64"/>il campo nel 
+                <date when="731">731</date> ; oppur dove discorre delle relazioni del-
+
+                <lb n="65"/>l’
+                <placeName><country type="nation">Italia</country></placeName> coi successori di 
+                <persName ref="#CM"><forename>Carlo</forename> <surname>Magno</surname></persName>  (pag. 138) ; o dei
+
+                <lb n="66"/><rs type="person">signori Lusculani</rs>, o <rs type="person">dei Millennari</rs>. Non diremo già che
+
+                <lb n="67"/>in questi, ed altri casi consimili, egli dia propriamente nel
+
+                <lb break="no" n="68"/>falso, bensì lascia a desiderare esattezza o chiarezza ; qua-
+
+                <lb n="69"/>lità che non dovrebbero mai venir meno ad un libro
+
+                <lb n="70"/>scolastico. L’udire, per esempio, che agli <orgName>Ussiti</orgName> fu dato
+
+                <lb n="71"/>anche il nome di Calistini, può far nascere nei giovani una
+
+                <lb break="no" n="72"/>supposizione erronea; che si sarebbe evitata col dare i vo-
+
+                <lb n="73"/>caboli latini 
+                <foreign><term xml:lang="la">Calixtini</term></foreign> e 
+                <term xml:lang="la">Utraquistœ</term>. Così si dica dei 
+                <term xml:lang="la">Conviva
+
+                    <lb n="74"/>regis
+                </term> franchi, che l’<abbr>A.</abbr> ci dà colla forma francese 
+                <term xml:lang="fr">Convives.</term>
+                <lb n="75"/>Paiono inezie; ma chi ha pratica di 
+                <orgName>scuole</orgName>, sa bene che
+
+                <lb n="76"/>non sono tali.
+                </ab>
+                
+                <ab facs="#par8-bib2">
+                <lb break="no" n="77"/>Con tutto ciò il libro del signor 
+                <persName ref="#NF"><surname>Fornelli</surname></persName> non è da met-
+
+                <lb n="78"/>tere a fascio con certi <addName type="epithet">magri compendi</addName> che fanno le spese
+
+                <lb break="no" n="79"/>in molte scuole; ed ai quali, per essere pietosi, non augu-
+
+                <lb n="80"/>reremo altro, se non che abbiano a tornare ben presto in
+
+                <lb n="81"/>quella oscurità, da cui non avrebbero dovuto uscir mai. Che
+
+                <lb n="82"/>dalle 
+                <orgName>scuole</orgName> s’ abbiano a bandire assolutamente i Compendi
+
+                <lb break="no" n="83"/>di storia, non lo diremo. Ma con quali criteri ed avvedi-
+
+                <lb n="84"/>menti s’hanno a concepire e dettare siffatti libri? Ed in
+
+                <lb n="85"/>che relazione o connessione s’ hanno a mettere coi libri di
+
+                <lb n="86"/>vera <rs type="temi">lettura storica</rs> ? Di svolgere tale quesito non è qui il
+
+                <lb break="no" n="87"/>luogo ; pure 1’ abbiamo voluto ricordare, poiché se ne pre-
+
+                <lb break="no" n="88"/>sentava l’occasione. E dal canto nostro non esitiamo a sog-
+
+                <lb n="89"/>giungere, che alla scuola non tanto s’ appartiene di empir
+
+                <lb n="90"/>la memoria a’ giovani di una <addName type="epithet">grande suppellettile di fatti</addName>,
+
+                <lb n="91"/>quanto di educare in essi il <rs type="temi">senso istorico</rs>. Ma con questa
+
+                <lb n="92"/><rs type="temi">educazione</rs> i consueti Compendietti e Manualetti ci hanno
+
+                <lb n="93"/>a fare ben poco.
+                </ab>
+            </div>
+        </body>
+    </text>
+
+
+    <!-- Testo codificato delle notizie. -->
+    <text xml:id="text_NOT">
+    <body>
+        <div>
+            <pb n="4" facs="notizie.png" />
+            
+            <ab facs="#not1">
+                <lb xml:id="pag84-lin1" n="1"/>
+                NOTIZIE.
+
+                
+                
+                <lb xml:id="pag84-lin2" n="2"/>
+                — 
+                
+                
+                <persName ref="#RF">Del <surname>Giovagnoli</surname></persName> si stampa un altro Romanzo a 
+                
+                
+                <placeName><settlement type="city">Roma</settlement></placeName>: 
+                
+                
+                <title>Saturnino</title>.
+
+                
+                
+                <lb  break="no" xml:id="pag84-lin3" n="3"/>
+                — Il conte senatore 
+                
+                
+                <persName role="conte senatore"><forename>Scipione Bichi</forename> <surname>Borghesi</surname></persName> di 
+                
+                
+                <placeName><settlement type="city">Siena</settlement></placeName>, morto il 
+                
+                
+                <date when="1877-12-01">1° di-
+
+                    
+                    
+                    <lb xml:id="pag84-lin4" n="4"/>
+                cembre 1877
+                
+                
+                </date>, ha lasciato all’ 
+                
+                
+                <orgName type="archivio">Archivio di Stato</orgName> di quella città la sua
+
+                
+                
+                <lb xml:id="pag84-lin5" n="5"/>
+                ricca collezione di pergamene, tra le quali è il testamento originale di
+
+                
+                
+                <lb break="no" xml:id="pag84-lin6" n="6"/>
+                <persName ref="#GB"><forename>Giovanni</forename> <surname>Boccaccio</surname></persName>; e alla 
+                
+                
+                <orgName>Biblioteca Comunale</orgName> una raccolta assai nu-
+
+                
+                
+                <lb xml:id="pag84-lin7" n="7"/>
+                merosa di edizioni senesi.
+    
+                    
+                
+                <lb xml:id="pag84-lin8" n="8"/> 
+                - Parte delle antichità che il dott.
+                <persName ref="#HS"><surname>Schliemann</surname></persName> ha trovato nei suoi
+                
+                <lb n="9"/>
+                scavi di 
+                <placeName><settlement type="city">Hissarlik</settlement></placeName> (nel 
+                <placeName><region>Troade</region></placeName>), sono esposte in questi giorni a Londra
+                
+                <lb n="10"/>
+                nel 
+                <orgName>South Kensington Museum</orgName>.
+                </ab>
+
+                <ab facs="#not2">
+                <lb xml:id="next_text3" break="no" n="11"/>
+                - Il signor <persName><surname>Bevan</surname></persName>, in una lettera al 
+                <orgName>Times</orgName> dell'
+                <date when="08-01">8 gennaio</date>, ha cal-
+                
+                <lb n="12"/>
+                colato che il numero degli <rs type="temi">scioperi</rs> scoppiati in 
+                <placeName><country type="nation">Inghilterra</country></placeName> durante
+                
+                <lb n="13"/>
+                il 
+                <date when="1877">1877</date> ascende a 171 la cui durata si protrasse da una settimana a
+                
+                <lb n="14"/>
+                a nove mesi ed il cui risultato è stato generalmente di niuno effetto
+                
+                <lb n="15"/>
+                tranne in alcuni pochi casi di <rs type="temi">dispute</rs> di pochissima importanza. Le
+                
+                <lb n="16"/>
+                miniere di carbone di 
+                <placeName><settlement type="city">Saundersfoot</settlement></placeName> sospesero i lavori per 7 mesi, quelle
+                
+                <lb n="17"/>
+                di 
+                <placeName><settlement type="city">Dronfield</settlement></placeName> per 7 e mezzo, per 8 quelle di 
+                <placeName><settlement type="city">Fife</settlement></placeName> e di 
+                <placeName><settlement type="city">Clackmannan</settlement></placeName>, e 
+                
+                <lb n="18"/>
+                tutte li ripresero alle stesse condizioni che per lo innanzi. I calafati
+                
+                <lb break="no" n="19"/>
+                della 
+                <orgName>Clyde</orgName> dopo una lotta di circa 6 mesi si sottoposero ad un arbi-
+                
+                <lb break="no" n="20"/>
+                trato che fu loro contrario; i tessitori di 
+                <placeName><settlement type="city">Boston</settlement></placeName> e di 
+                <placeName><settlement type="city">Blackburn</settlement></placeName> per-
+                
+                <lb n="21"/>
+                severanono altrettanto tempo in un'agitazione affatto sterile.
+            	
+            </ab>
+        </div>
+    </body>
+</text>
+
+</TEI>
